@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Yosemite Photo Gallery</title>
+</head>
+<body>
+<!-- Heading Name -->
+<div class="heading">
+    <h1>Yosemite Photo Gallery</h1>
+</div>
+    <!-- Image Gallery section all image in one div -->
+    <div class="gallery">
+<img src=
+https://images.unsplash.com/photo-1562310503-a918c4c61e38?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW9zZW1pdGUlMjBuYXRpb25hbCUyMHBhcmt8ZW58MHx8MHx8fDA%3D
+alt="Image 2" class="gallery-img" onclick="showImage(src)">
+<img src=https://images2.alphacoders.com/837/837668.jpg
+alt="Image 3" class="gallery-img" onclick="showImage(src)">
+<img src=https://www.teahub.io/photos/full/56-566670_yosemite-national-park-yosemite-falls.jpg alt="Image 4" class="gallery-img" onclick="showImage(src)">
+<img src=https://www.teahub.io/photos/full/52-527357_yosemite-national-park-yosemite-falls.jpg alt="Image 5" class="gallery-img" onclick="showImage(src)">
+<img src=https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/ab/85.jpg
+alt="Image 6" class="gallery-img" onclick="showImage(src)">
+<img src=https://h2.gifposter.com/bingImages/FireFallYosemite_EN-US1696286356_1920x1080.jpg
+alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<img src=https://c4.wallpaperflare.com/wallpaper/382/231/775/yosemite-valley-el-capitan-united-states-california-wallpaper-preview.jpg
+alt="Image 8" class="gallery-img" onclick="showImage(src)">
+<img src=https://i.pinimg.com/736x/a2/5d/f5/a25df50064a6dacdb357c092a01a8a37.jpg
+alt="Image 9" class="gallery-img" onclick="showImage(src)">
+<img src=https://4kwallpapers.com/images/wallpapers/yosemite-national-park-river-forest-autumn-scenery-2560x1440-3967.jpg
+alt="Image 10" class="gallery-img" onclick="showImage(src)">        
+</div>
+
+
+<!-- Image container where image will show in big size -->
+    <div class="image-popup-container" id="imagePopup">
+        <span class="close-button" onclick="closeImage()">×</span>
+        <img src="" alt="Popup Image" id="popupImage">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
